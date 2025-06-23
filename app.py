@@ -19,7 +19,7 @@ st.set_page_config(
 def load_models():
     """Charge tous les modèles et le scaler"""
     return {
-        "Random Forest": joblib.load("random_forest_model.pkl"),
+        #"Random Forest": joblib.load("random_forest_model.pkl"),
         "XGBoost": joblib.load("xgboost_model.pkl"),
         "Linear Regression": joblib.load("linear_regression_model.pkl"),
         "Neural Network": joblib.load("mlp_model.pkl"),
